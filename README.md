@@ -13,14 +13,14 @@ Specifications
 Be sure to add the base repository as a remote repository as I will be updating this README to further help you with the project. Clone your project and in Terminal enter this command,
 
 ```
-git remote add upstream https://github.com/jd12/InheritanceBackground.git
+git remote add teacherSpecs https://github.com/jd12/InheritanceBackground.git
 ```
 
 Then when working on your project 
 
 ```
 git checkout master
-git pull upstream master
+git pull teacherSpecs master
 ```
 
 # Assignment 
