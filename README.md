@@ -6,8 +6,6 @@ Project where you design and implement the basic setup for a Link / Zelda Game
 [Managing Inheritance](https://docs.oracle.com/javase/tutorial/java/IandI/subclasses.html) - how class hierarchies work
 Specifications
 
-[Project Setup](https://docs.google.com/document/d/1iHi5su31MD-YcwSnSosE0mPXrXGqBPHlJt3FdYo-OJ8/edit?usp=sharing)
-
 ## Part One: Install Eclipse, Set up Commit Template, and Import Project
 
 ### Install Eclipse
