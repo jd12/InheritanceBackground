@@ -8,20 +8,36 @@ Specifications
 
 [Project Setup](https://docs.google.com/document/d/1iHi5su31MD-YcwSnSosE0mPXrXGqBPHlJt3FdYo-OJ8/edit?usp=sharing)
 
-## Getting updates on the project 
+## Part One: Install Eclipse, Set up Commit Template, and Import Project
 
-Be sure to add the base repository as a remote repository as I will be updating this README to further help you with the project. Clone your project and in Terminal enter this command,
+### Install Eclipse
+
+Go to https://www.eclipse.org/ and click the orange Download button. It will take you to another page where you will click the Download button again. This will take you to a third page where you will again click the Download button.
+
+Open up the Eclipse Installer and Click `Eclipse IDE for Java Developers`
+
+Click the Install button.
+
+While it's installing follow the next steps.
+
+### Clone Project and Set up Commit Template
+
+Begin by cloning the provided project and importing it into your workspace.
+
+`git clone <url for github repository>`
+
+After cloning this repository you want to run these commands
+
+`git checkout -b development`
+
+This will create a branch named development and switch you to it. The development branch is where you will make all your commits.
 
 ```
-git remote add teacherSpecs https://github.com/jd12/InheritanceBackground.git
+cp git-commit-template.txt ~/.git-commit-template.txt
+git config --global commit.template ~/.git-commit-template.txt
 ```
 
-Then when working on your project 
-
-```
-git checkout master
-git pull teacherSpecs master
-```
+This will set up your commit template to automatically bring up the file to remind you of the format you want.
 
 # Assignment 
 
